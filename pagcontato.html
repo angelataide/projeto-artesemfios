@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="shortcut icon" href="./img/2.png" type="imagem/x-icon">
+    <link rel="stylesheet" href="/style-contato.css">
+
+</head>
+<body>
+    <header>
+        <img src="" alt="">
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./pagsobre.html">Sobre</a>
+            <a href="./pagdicas.html">Dicas e Recomendações</a>
+            <a href="./pagcontato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="centralizado faixa-de-cor">
+                <p>Com dúvidas envie um e-mail: angel.santosdev@gmail.com<p>
+            </div>      
+            <div class="container">
+                <img src="/img/download.jpg" alt="Imagem">
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d1992645.1243856905!2d-38.643505!3d-12.720924!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDAwJzQ2LjAiUyAzOMKwMjknNDIuNyJX!5e0!3m2!1spt-BR!2sbr!4v1729791522708!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>  
+        </section>
+        <br><br>
+
+        <div>
+            <h2>Responda esse formulário</h2>
+        </div>
+        <br><br> 
+
+        <section>
+            <form action="submit_form.php" method="POST">
+                <div class="form-section">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <div class="form-section">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-section">
+                    <label for="telefone">Número de Celular:</label>
+                    <input type="tel" id="telefone" name="telefone" required>
+                </div>
+
+                <div class="form-section">
+                    <label for="gostou">Você gostou do site?</label>
+                    <select id="gostou" name="gostou" required>
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                        <option value="parcialmente">Parcialmente</option>
+                    </select>
+                </div>
+
+                <div class="form-section">
+                    <label for="sugestoes">Sugestões:</label>
+                    <textarea id="sugestoes" name="sugestoes" rows="4" placeholder="Escreva suas sugestões aqui"></textarea>
+                </div>
+
+                <div class="form-section">
+                    <input type="submit" value="Enviar Feedback">
+                </div>
+            </form>
+        </section>
+    </main>
+    <br><br>
+
+    <footer class="rodape">
+        Desenvolvido por Angela Ataide
+    </footer>
+
+</body>
+</html>
